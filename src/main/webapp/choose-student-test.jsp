@@ -1,6 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page import="java.util.*"%>
-<%@ page import="com.luv2code.jsp.tagdemo.*"%>
+<%@ page import="com.luv2code.jsp.tagdemo.Student"%>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.List" %>
 
 <%
 	//create ArrayList of students

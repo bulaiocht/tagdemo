@@ -6,7 +6,7 @@ value="${not empty param.theLocale ? param.theLocale : pageContext.request.local
 scope="session"/>
 
 <fmt:setLocale value="${theLocale}"/>
-<fmt:setBundle basename="com.luv2code.jsp.tagdemo.i18n.resources.mylabels"/>
+<fmt:setBundle basename="mylabels"/>
 
 <!DOCTYPE html>
 <html>
